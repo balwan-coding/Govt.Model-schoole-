@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+  }
+  
+  body{
+    padding: 30px;
+    background: #ff9900;
+  }
+  
+  #main {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    padding: 5px;
+    max-width: 300px;
+    margin: 10px;
+    border-radius: 5px;
+    margin: auto;
+    background: white;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  img {
+    width: 200px;
+    align-self: center;
+  }
+  
+  input {
+    margin: 5px;
+  }
+  
+  .sign-in {
+    margin: 15px;
+    background: #ff9900;
+    border-radius: 5px;
+    border: 1px solid black;
+  }
+  
+  a{
+    color:  ;
+  }

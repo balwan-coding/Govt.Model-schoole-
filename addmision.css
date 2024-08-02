@@ -1,0 +1,70 @@
+*{
+    padding:0;
+    margin:0;
+    text-decoration: none;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    background-color: azure;
+}
+
+.container{
+  margin:auto;
+  padding:40px;
+  
+}
+
+.input{
+    padding: 9px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:10px;
+    justify-content: center;
+    border: 2px solid black;
+    width:300px;
+    border-radius:10px;
+    margin:auto;
+    background:rgb(102, 175, 204)
+}
+
+#Student-image{
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+}
+
+input{
+    background-color: rgb(156, 218, 226);
+    font-size: 20px;
+    border:none
+}
+
+input:hover{
+    border: 3px solid rgb(232, 239, 8);
+    background: salmon;
+}
+
+input:focus{
+background: lavenderblush;
+}
+
+button{
+    background-color: greenyellow;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    padding:5px;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: black;
+    color:white;
+}
+
+a{
+    color:rgb(200, 48, 48);
+}

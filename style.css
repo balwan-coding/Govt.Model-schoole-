@@ -1,0 +1,279 @@
+
+*{
+    padding:0;
+    margin:0;
+    text-decoration:none;
+}
+main{
+   text-align: center;
+   
+}
+
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #A30000;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+
+.school-logo {
+    width: 70px;
+}
+
+.header-container input[type="text"] {
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 150px;
+}
+
+
+.btn-s, .toggle-button, .sing-in {
+    background-color: #00AFB5;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.btn-s:hover, .toggle-button:hover, .sing-in:hover {
+    background-color: #0056b3;
+}
+
+
+.btn-s samp select, .btn-s samp option {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 4px;
+    margin-top: 5px;
+    width: 100%;
+}
+
+
+.btn-s samp a, .sing-in samp a {
+    color: white;
+    text-decoration: none;
+}
+
+.btn-s samp a:hover, .sing-in samp a:hover {
+    text-decoration: underline;
+}
+
+
+.toggle-button {
+    background-color: #EFD28D;
+}
+
+.toggle-button:hover {
+    background-color: #164280;
+}
+
+
+
+footer{
+    background-color: #A30000;
+    height:100px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-div{
+    display: flex;
+    gap:10px;
+}
+
+
+i{
+    color: black;
+    font-size: 30px;
+}
+
+a{
+    color: black;
+}
+
+body{
+    transition : background-color 0.8s, 0.8s ;
+  }
+  
+    .light-mode{
+      background:white;
+      color:black;
+    }
+  
+    .dark-mode{
+      background:black;
+      color:white;
+    }
+  
+    
+
+    .hero {
+        background: url('hero-bg.jpg') no-repeat center center/cover;
+        color: white;
+        text-align: center;
+        padding: 5rem 1rem;
+    }
+    
+    .hero-content {
+        max-width: 600px;
+        margin: 0 auto; 
+    }
+    
+    .hero h1 {
+        font-size: 3rem;
+        color: rgb(218, 117, 40);
+    }
+    
+    .hero p {
+        font-size: 1.5rem;
+        color: rgb(218, 117, 40);
+    }
+    
+    .hero .btn {
+        background: #ff5722;
+        color: white;
+        padding: 1rem 2rem;
+        text-decoration: none;
+        border-radius: 5px;
+        display: inline-block;
+        margin-top: 1rem;
+    }
+    
+    .courses {
+        padding: 3rem 1rem;
+        text-align: center;
+    }
+    
+    .courses h2 {
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+    
+    .course-list {
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+        flex-wrap: wrap;
+    }
+    
+    .course {
+        background: #df8686;
+        padding: 2rem;
+        border-radius: 10px;
+        max-width: 300px;
+        text-align: left;
+    }
+
+    .image-conteiner{
+        margin: 30px;
+        display: flex;
+        gap:20px;
+        flex-wrap: wrap;
+    }
+
+    .img{
+        border: 2px solid black;
+        width:400px;
+        background-color: white;
+    }
+
+@media only screen and(min-widht : 500px){
+   
+   
+   
+   
+    header{
+        text-align: center;
+        height: 100px;
+        background: #99c24d;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding:3px;
+    }
+    
+    .header-container{
+        display: flex;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap:10px;
+        justify-content: center;
+        overflow: auto;
+    }
+    
+    input {
+        border: 2px solid black;
+        border-radius: 4px;
+        background-color: #f18f01;
+        font-size: 20px;
+    }
+    
+    
+    .btn-s {
+        color: black;
+        border: none;
+        background: #f18f01;
+        border-radius: 4px;
+        font-size: 20px;
+        padding: 3px;
+    
+    }
+    
+    .sing-in {
+        font-size: 20px;
+        border: none;
+        background: #f12101;
+        border-radius: 4px;
+        padding: 3px;
+        
+    }
+    
+    .toggle-button {
+        font-size: 20px;
+        cursor: pointer;
+        background: #5faa83;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        padding: 3px;
+    }
+    
+    
+}
+
+     
+    
+
+@media (max-width: 768px) {
+    .header-container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .btn-s, .toggle-button, .sing-in {
+        margin: 5px 0;
+        width: 100%;
+    }
+
+    .header-container input[type="text"] {
+        width: 100%;
+        margin: 5px 0;
+    }
+}
